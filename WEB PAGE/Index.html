@@ -1,0 +1,150 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>How do you choose?</title>
+    <link rel="icon" href="Images/goodness.png" type="image/gif" sizes="16x16">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links
+  $("a").on('click', function(event) {
+
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 400, function(){
+   
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+});
+</script> 	
+	<link href="Style.css" rel="stylesheet" type="text/css">
+  <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300|Quicksand:400,700|Roboto:300' rel='stylesheet' type='text/css'>   
+</head>
+<body id="mainbody">
+    <section id="blue2"> <div id="blue">
+        <ul>
+                <li><button class="dropbtn2"><a id="menu2" href="#header" title="link to top">Home</a></button></li>
+                 <li><button class="dropbtn2"><a id="menu2" href="#b" title="link to section b">Video</a></button></li>
+                <li class="dropdown2"><button class="dropbtn2"><a id="menu2" href="#c" title="link to section c">What to avoid</a>  </button>  
+                <div class="dropdown-content">
+                    <a id="menuitem2" href="Pages/Animal%20Testing.html">Animal Testing</a>
+                      <a id="menuitem2" href="Pages/Harmful%20Chemicals.html">Harmful Chemicals</a>
+                      <a id="menuitem2" href="Pages/Microbeads.html">Microbeads</a>
+                     <a id="menuitem2" href="Pages/Palm%20oil.html">Palm Oil</a>
+                    </div></li>
+                <li class="dropdown2"><button class="dropbtn2"><a id="menu2" href="#d" title="link to section d">Good brands</a></button>  
+                    <div class="dropdown-content">
+                     <a id="menuitem2" href="http://www.goodnessproducts.com/" target="_blank">Goodness</a>
+                        <a id="menuitem2" href="http://www.skinfood.co.nz/" target="_blank">Skin Food</a>
+                        <a id="menuitem2" href="http://essano.co.nz" target="_blank">Essano</a>
+                        <a id="menuitem2" href="http://www.ecostore.co.nz/" target="_blank">Eco Store</a>
+                        </div></li>
+                 <li><button  class="dropbtn2"><a id="menu2" href="#e" title="link to section e">It's your choice</a></button>
+                 </li>
+             </ul>        </div> </section>
+    <section id="header">
+    <header>   
+        <ul>
+                <li><button class="dropbtn"><a id="menu" href="#header" title="link to top">Home</a></button></li>
+                 <li><button class="dropbtn"><a id="menu" href="#b" title="link to section b">Video</a></button></li>
+                <li class="dropdown"><button class="dropbtn"><a id="menu" href="#c" title="link to section c">What to avoid</a>  </button>  
+                 <div class="dropdown-content">
+                    <a id="menuitem" href="Pages/Animal%20Testing.html">Animal Testing</a>
+                      <a id="menuitem" href="Pages/Harmful%20Chemicals.html">Harmful Chemicals</a>
+                      <a id="menuitem" href="Pages/Microbeads.html">Microbeads</a>
+                     <a id="menuitem" href="Pages/Palm%20oil.html">Palm Oil</a>
+                    </div>
+                </li>
+                <li class="dropdown"><button class="dropbtn"><a id="menu" href="#d" title="link to section d">Good Brands</a></button>  
+                 <div class="dropdown-content">
+                     <a id="menuitem" href="http://www.goodnessproducts.com/" target="_blank">Goodness</a>
+                        <a id="menuitem" href="http://www.skinfood.co.nz/" target="_blank">Skin Food</a>
+                        <a id="menuitem" href="http://essano.co.nz" target="_blank">Essano</a>
+                        <a id="menuitem" href="http://www.ecostore.co.nz/" target="_blank">Eco Store</a>
+                        </div>
+                        </li>
+                 <li><button  class="dropbtn"><a id="menu" href="#e" title="link to section e">It's your choice</a></button>
+                 
+                 </li>
+             </ul>        
+    </header>
+        </section>
+     <section id="a">
+     <button class="adownbutton"><a id="adown" href="#b"> </a></button>    
+    </section>
+    <section id="b">
+        <video src="Video/Final%20Export.mp4" controls = "true"></video>
+   <button class="bdownbutton"><a id="bdown" href="#c"> </a></button>
+    </section>
+    <section id="c">
+        <div id="divc">
+        <h2 id="thingstoavoid2">What to avoid</h2>
+        <p id="cp"> When choosing skin care products avoid these things. Check the packaging, choose items that <br>state they do not contain these things. Click on the icons bellow for more information.</p>
+        <div id="icons">
+            <a id="aimage" href="Pages/Animal%20Testing.html"><image src="Icons/animal.png" height="370" id="imagean"></image></a>
+        <a id="aimage" href="Pages/Harmful%20Chemicals.html"><image src="Icons/harmful.png" height="370" id="imageh"></image></a>
+        <a id="aimage" href="Pages/Microbeads.html"><image src="Icons/micro.png" height="370" id="imagem"></image></a>
+        <a id="aimage" href="Pages/Palm%20oil.html"><image src="Icons/palm.png" height="370" id="imagep"></image></a>
+        <div id="badstuff">
+        <h2 id="animal">Animal Testing</h2>
+        <h2 id="harmful">Harmful Chemicals</h2>
+        <h2 id="micro">Microbeads</h2>
+        <h2 id="palm">Palm Oil</h2>
+        </div>
+            </div>
+            </div>
+        <button class="cdownbutton"><a id="cdown" href="#d"> </a></button>
+    </section>
+    <section id="d">
+        <div id="divd2"><div id="divd"> 
+            <h3>Good Brands</h3>
+            <p id="pd"> These brands use no animal testing, harmful chemical, palm oil or micro beads!<br>Click on the icons bellow to visit their websites.</p>
+        </div>
+        
+        <button class="goodness" id="brand1"><a id="brandlink" href="http://www.goodnessproducts.com/" target="_blank"></a></button>
+        <h2 class="h2d" id="h2good">Goodness</h2>
+        <p class="pd" id="pgood">Turn the cool stuff from Mother Nature into<br>skincare that’s damn fine for your skin.</p>
+        
+        <button class="skin" id="brand2"><a id="brandlink" href="http://www.skinfood.co.nz/" target="_blank"></a></button>
+        <h2 class="h2d" id="h2skin">Skin Food</h2>
+        <p class="pd" id="pskin">Offer a range of nutricious products that will<br>have you feeling nourished, cleansed and revitalised.</p>
+        
+        <button class="es" id="brand3"><a id="brandlink" href="http://essano.co.nz" target="_blank"></a></button>
+        <h2 class="h2d" id="h2org">Essano</h2>
+        <p class="pd" id="porg">Hand select only the best plant-based ingredients,<br>all focused on delivering you amazing results.</p>
+        
+        <button class="eco" id="brand4"><a id="brandlink" href="http://www.ecostore.co.nz/" target="_blank"></a></button>
+        <h2 class="h2d" id="h2eco">Eco Store</h2>
+        <p class="pd" id="peco"> Put your health first. They work to create products<br>that are safer for you and kinder for the planet.</p>
+        </div>
+        
+        <button class="ddownbutton"><a id="ddown" href="#e"> </a></button>
+    </section>
+    <section id="e">
+        <div id="dive">
+    <h4>It's your choice</h4>
+    <P id="pe">A small change can make a big difference. Choose a skin care product that's good for your and good for the environment.</P>
+            </div>
+         <button class="upbutton">
+             <a id="up" href="#header"> </a>
+         </button>
+    </section>
+    <footer>
+        <p id="footer">Created by Kate and Beth</p>
+    </footer>
+</body>
+</html>
