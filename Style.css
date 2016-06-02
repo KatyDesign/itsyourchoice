@@ -40,7 +40,7 @@ p {
 
 .adownbutton {
     position:relative;
-    top: 597px;
+    top: 580px;
     right: 1px;
     background-image: url(Images/down.png);
     background-size: 60px;
@@ -71,7 +71,7 @@ p {
     Height: 60px;
     position: relative;
     right: 10px;
-    bottom: 10px;
+    bottom: 15px;
     
 }
 
